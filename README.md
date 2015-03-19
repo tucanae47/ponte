@@ -113,8 +113,10 @@ $ mosquitto_sub -t "hello" -v
 hello world
 ```
 ### Publishing from Android CoAp using Msg-pack to MQTT
-Git clone current fork
+git clone current fork
+
 npm install 
+
 ```
 $ mosquitto_sub -t "hello" -v
 hello 12346789,pi on the network,71,20,pi,3.1426000595092773,64,3234
