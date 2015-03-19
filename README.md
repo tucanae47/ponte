@@ -112,6 +112,15 @@ Subscribe using `mosquitto_sub` ([mosquitto](http://mosquitto.org)):
 $ mosquitto_sub -t "hello" -v
 hello world
 ```
+### Publishing from Android CoAp using Msg-pack to MQTT
+Git clone current fork
+npm install 
+```
+$ mosquitto_sub -t "hello" -v
+hello 12346789,pi on the network,71,20,pi,3.1426000595092773,64,3234
+```
+follow intructions [Android Coap Client] (https://github.com/tucanae47/CoApAndroidClient)
+
 
 ### Publishing MQTT to CoAP
 
